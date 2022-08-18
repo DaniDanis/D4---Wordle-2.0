@@ -1,0 +1,148 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.5em;
+}
+
+.joguinho{
+    max-width: 550px;
+    margin: auto;
+    margin-top: 150px;
+   
+}
+.caixaGrande {
+    max-width: 358px;
+    max-height: 426px;
+    margin: auto;
+              
+}
+
+.caixinha {
+    display: inline-block;           
+    line-height: 62px;    
+    width: 62px;
+    height: 62px;
+    border: 2.5px solid #d3d6da;
+    margin-top: 4px;
+    margin-right: 1px;
+    }
+
+.letra {
+    background-color: #787c7e;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.amarelo {
+    background-color: #c9b458;
+    border: 2.5px solid #c9b458;
+    color: white;
+    }
+
+.verde {
+    background-color: #6aaa64;
+    border: 2.5px solid #6aaa64;
+    color: white;
+}
+
+.cinza {
+    background-color: #787c7e;
+    border: 2.5px solid #787c7e;
+    color: white
+}
+
+
+.preenchendo {
+    border: 2.5px solid #878a8c;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.vazia {
+    background-color: white;    
+}
+
+.teclado {
+    display: inline-block; 
+    margin-top: 150px;
+
+}
+
+.teclaGrande{
+    display: inline-block;           
+    line-height: 60px;    
+    width: 65.41px;
+    height: 58px;
+    border: 2px solid #d3d6da;
+    background-color: #d3d6da;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 3px;
+    }
+
+.teclaPequena1 {
+    display: inline-block;           
+    line-height: 60px;    
+    width: 43px;
+    height: 58px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 3px;
+        
+}
+
+.teclaPequena2 {
+    display: inline-block;           
+    line-height: 60px;    
+    width: 43.59px;
+    height: 58px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 3px;
+    
+}
+
+.teclas {
+    background-color: #d3d6da;
+    border: 2px solid #d3d6da;
+}
+
+.wordle {
+    margin-left: 0px;
+    text-align: center;
+    border-bottom: solid 1px #787c7e;
+    padding-top: 10px;
+    height: 45px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+    font-size: 37px;
+    line-height: 100%;
+    
+    
+}
+
+.linhaMeio {
+    margin-left: 3.65%;
+}
+
+.zeromargem {
+    margin: 0px;
+
+}
+
+.linha {
+    display: flex;
+    gap: 5px;
+    max-height: 72px;
+}
